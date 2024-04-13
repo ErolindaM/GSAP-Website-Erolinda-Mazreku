@@ -1,0 +1,37 @@
+*{
+	background-color: #e4d4c8;
+	font-family: "Playfair Display";
+}
+p{
+	font-size: 18px;
+}
+h4{
+	font-size: 24px;
+}
+h1, h2{
+	font-family: "Satisfy";
+}
+.btn{
+	color: #577643;
+	border-color: #577643;
+  font-size: 18px;
+}
+.btn:hover{
+	background-color: #577643;
+	color: aliceblue;
+}
+.arrow{
+	padding-top: 20px;
+	padding-left: 50px;
+
+}
+.card{
+  border: #577643;
+}
+
+.footer{
+	font-family: "Dosis";
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: -30px;
+  }

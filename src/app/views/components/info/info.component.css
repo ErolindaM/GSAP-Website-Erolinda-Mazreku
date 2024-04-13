@@ -1,0 +1,52 @@
+*{
+	background-color: #f1ebc7;
+}
+.box{
+	background-color: white;
+}
+input, textarea {
+	background-color: rgb(228, 224, 192);
+}
+.custom-border{
+	border: 1px solid #a0a3a5;
+}
+.btn{
+	background-color: #577643;
+	border: #577643;
+}
+.btn:hover{
+	background-color:#466134;
+}
+label{
+	font-size: 20px;
+}
+.bi{
+	size: 30px;
+}
+.title{
+	font-size: 32px;
+}
+.paragraph1{
+	font-size: 32px;
+	font-family: "Satisfy";
+	text-align: center;
+	margin-top: 20px;
+	color: #466134;
+}
+.title, .paragraph {
+    display: inline-block;
+  }
+  .word {
+    display: inline-block;
+    padding-right: 10px;
+  }
+.footer{
+	font-family: "Dosis";
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: -30px;
+  }
+
+  .custom-icon{
+	color: #577643;
+  }

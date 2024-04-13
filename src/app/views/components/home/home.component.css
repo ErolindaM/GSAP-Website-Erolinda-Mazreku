@@ -1,0 +1,501 @@
+/*first part styles*/
+.bg-image {
+  background-image: url('src/assets/images/entry1.avif');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  
+}
+.text-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 130px;
+  transform: translate(-50%, -50%);
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5); 
+  padding-top: 12px;
+  font-family: Poppins;
+  opacity: 1;
+}
+  .title{
+    font-size: 60px;
+    font-family: "Whisper";
+    color:white;
+    
+    .whisper-regular {
+      font-family: "Whisper", cursive;
+      font-weight: 400;
+      font-style: normal;
+    }
+    
+  }
+  .title, .paragraph {
+    display: inline-block;
+  }
+  
+  .word {
+    display: inline-block;
+    padding-right: 10px;
+  }
+  .paragraph{
+    font-size: 24px;
+    font-family: "Satisfy";
+  }
+
+  /*second part styles*/
+
+.secondpart{
+  width: 100%;
+  padding: 48px;
+  height: 100vh;
+  position: relative;
+  box-sizing: border-box;
+  background-color: #f5f4e4;
+}
+.heading{
+  font-size: 42px;
+  font-family: "Satisfy";
+}
+.text2{
+  font-size: 28px;
+  width:50%;
+  margin-top: 5%;
+  padding-right: 10px;
+  position: absolute;
+  font-family: "Satisfy";
+}
+.bottomLine{
+  width:100%;
+  height: 5px;
+  background-color: #47461a;
+  padding-right: 10px;
+  opacity: 0.90;
+  display: block;
+  margin-top: 20px;
+}
+.image1{
+  width: 36%;
+  height: 328px;
+  right: 3%;
+  top:20%;
+  position: absolute;
+  background-image: url('src/assets/images/inside1.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.image2{
+  width: 25%;
+  height: 208px;
+  right: 20%;
+  top:54%;
+  position: absolute;
+  background-image: url('src/assets/images/inside2.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.images{
+  overflow-block:hidden;
+}
+
+/*third part styles*/
+
+.main{
+  background-color: #f5f4e4;
+}
+.ht{
+  color: #ec0f04;
+}
+.section-one {
+  grid-row: 3 / 4;
+  display: grid;
+  grid-template: repeat(2, 330px) / repeat(4, 1fr);
+  grid-gap: 20px;
+}
+.section-two {
+
+  padding: 20px;
+
+  .letter {
+    position: relative;
+    span{
+      position: relative;
+      font-size: 80px;
+      color: #ea3e3e;
+      font-family: "Kaushan Script";
+    }
+  }
+
+  
+  .titles {
+    .title-1 {
+      display: flex;
+      position: relative;
+      font-family: "Satisfy";
+      .num {
+        position: absolute;
+        top: 15px;
+        left: -25px;
+      }
+      h1 {
+        font-size: 65px;
+        font-weight: 400;
+      }
+    }
+  }
+.images-bsn{
+  display: flex;
+  gap:25px;
+}
+  .paragraph {
+    font-family: "Satisfy";
+    line-height: 1.4;
+    margin-top: 15px;
+    font-size: 22px;
+    padding-bottom: 30px;
+  }
+
+  .image-1 {
+    grid-column: 2 / 3;
+  }
+  .image-2 {
+    grid-column: 3 / -1;
+  }
+}
+
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .section-one .image-container {
+    flex: 0 1 100%; /* Full width for each image on smaller screens */
+  }
+}
+
+
+.image-container {
+  position: relative;
+  img {
+    filter: brightness(0.75);
+  }
+  figcaption , .fig{
+    font-size: 40px;
+    text-align: center;
+    font-family: "Satisfy";
+  }
+
+}
+
+.image-container:nth-child(5) {
+  grid-row: 2 / 3;
+  grid-column: 3 / 4;
+}
+.image-container:nth-child(4) {
+  & > :first-child {
+    position: absolute;
+    top: -26%;
+  }
+}
+.image-container:nth-child(3) {
+  display: flex;
+  justify-content: center;
+  font-size: 70px;
+  height: 100%;
+  align-items: center;
+  font-weight: 500;
+  figcaption {
+    font-size: 22px;
+    font-weight: normal;
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+/*fourth part 1 styles*/
+.section1 {
+  width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-top: 50px;
+}
+
+.fourthpart {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #e9ffc7;
+}
+.banner {
+  font-size: 3rem;
+  font-family: 'Kaushan Script';
+  color: white;
+  text-transform: uppercase;
+  line-height: 1;
+  span {
+    display: flex;
+    background-color: #8f8c34;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+  }
+}
+/*fourth part 2 styles*/
+.cards__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+  opacity: 0;
+  padding-top: 30px;
+}
+
+.card {
+  position: relative;
+  width: 340px;
+  height: 400px;
+  margin: 3rem 1rem;
+  overflow: hidden;
+  cursor: pointer;
+  border: none;
+  border-radius: 150px;
+
+  p{
+    font-family: "Satisfy";
+    font-size: 48px;
+  }
+}
+
+.card__image--wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.card__image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform-origin: center center;
+  transition: opacity 0.5s ease, transform 0.5s ease; /* Transition for opacity and transform */
+}
+
+.card__text {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#c1cc76;
+  color: rgb(68, 65, 65);
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+.card__text--inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.card__text--inner h1 {
+  font-family: "Satisfy";
+  font-size: 38px;
+  
+}
+
+.card__text--inner p {
+  font-size: 22px;
+  border-top: 1px double;
+  padding: 20px;
+}
+.main {
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}}
+::-webkit-scrollbar,
+::-webkit-scrollbar-thumb {
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
+
+/*fifth part styles*/
+
+.wrapp{
+	position: relative;
+	width: 100%;
+	height:auto;
+	padding: 0;
+	z-index:1;
+  background-color: #e3fcbb;
+  padding-top: 50px;
+
+  p{
+    font-size: 30px;
+    font-family: "Caveat";
+  }
+}
+.work{
+	display: flex;
+}
+.work_left{
+	position: relative;
+	width: 54%;
+	z-index: 2;
+}
+.work_text{
+	margin: auto;
+	width: 70%;
+}
+.work_info{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.work_num{
+	display: block;
+	line-height: .9;
+	text-align: right;
+	font-size: 18px;
+	transform: skewX(-20deg);
+	color: var(--color-1-1);
+}
+
+.title2{
+	text-align: right;
+	font-size: 70px;
+	text-transform: uppercase;
+	color: var(--pr-color);
+}
+.title2 .stroke{
+	display: block;
+	color: rgb(233, 42, 42);
+	-webkit-text-stroke: 1px var(--pr-color);
+}
+
+.work_link{
+	display: block;
+	width:365px;
+	margin-top: 50px;
+	margin-left: auto;
+	padding: 18px 0;
+	font-size: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	color:var(--pr-color);
+	letter-spacing: 4px;
+	border:2px solid var(--color-1-1);
+	border-radius: 30px;
+	transition: .4s;
+}
+.work_link:hover{
+	background: var(--color-1-1);
+	color: var(--color-1-2);
+	letter-spacing: 6px;
+}
+.work_right{
+	width:46%;
+	height: auto;
+  padding-right: 20px;
+}
+.work_right_bl{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: sticky;
+	width:100%;
+	height:100vh;
+	top:0;
+}
+.work_photo{
+	width: 40vw;
+	height: 30vw;
+	position: relative;
+}
+.work_photo_item{
+	position: absolute;
+	width: 100%;
+	height: 80%;
+	cursor: pointer;
+	border-radius: 80px;
+	overflow:hidden;
+	
+}
+.work_photo_item img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+/*sixth part styles*/
+.sixthpart{
+  background-color: #e9f7cb;
+
+  p {
+    text-align: center;
+    font-size: 28px;
+    font-family: "Dosis";
+  }
+
+  h1{
+    padding-left: 20px;
+    font-family: "Satisfy";
+    color: #ec0f04;
+  }
+}
+.justify{
+  height: auto;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
+/*seventh part styles*/
+
+.racesWrapper{
+  background-color: #e9f7cb;
+
+  h1{
+    font-family: "Satisfy";
+    padding: 20px;
+    margin-left: 30px;
+    font-size: 56px;
+    color: #ec0f04;
+  }
+}
+.races {
+  height: 50vh;
+	display:flex;
+}
+.img-slider{
+  border-radius: 4px;
+  padding-right: 15px;
+}
+
+.footer{
+  font-family: "Dosis";
+  text-align: center;
+  font-size: 20px;
+}
