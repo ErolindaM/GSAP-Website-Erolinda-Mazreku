@@ -108,7 +108,7 @@ export class HomeComponent implements OnInit {
     gsap.to(".main", {
       scrollTrigger: {
         trigger: ".section-two",
-        start: "top 50%", // Start when .section-two reaches top 70% of viewport
+        start: "top 80%",
         end: "bottom bottom",
         scrub: true,
         onUpdate: self => {
@@ -132,13 +132,13 @@ export class HomeComponent implements OnInit {
     gsap.utils.toArray<HTMLElement>(".main .image-container").forEach(element => {
       gsap.from(element, {
         opacity: 0,
-        y: 50,
-        duration: 1,
-        ease: "power3.out",
+        y: 90,
+        duration: 3,
+        ease:"power2.inOut",
         scrollTrigger: {
           trigger: element,
           start: "top 100%",
-          end: "top 30%",
+          end: "top 20%",
           scrub: true,
         },
       });

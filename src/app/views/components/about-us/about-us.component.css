@@ -35,3 +35,19 @@ h1, h2{
 	margin-top: 50px;
 	margin-bottom: -30px;
   }
+
+
+	.custom-icons{
+		color: #577643;
+	
+  }
+
+
+.bigger-icon {
+	font-size: 25px;
+  }
+  
+  .green-icon {
+	color: #577643;
+  }
+  

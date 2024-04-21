@@ -86,7 +86,7 @@ body {
   height: 100vh;
   padding: 50px;
   background-image: url("src/assets/images/background.jpg");
-  background-size: cover; /* Ensure the background image covers the entire screen */
+  background-size: cover;
   background-repeat: no-repeat;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
