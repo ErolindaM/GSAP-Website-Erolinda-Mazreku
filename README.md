@@ -1,3 +1,11 @@
+# About this website
+
+This project is a modern, responsive Hotel Premium website developed using Angular. The site incorporates GSAP (GreenSock Animation Platform) to deliver smooth, high-performance animations that enhance the user experience and bring the interface to life. Bootstrap is used for styling and layout, ensuring the design adapts seamlessly to different screen sizes and devices.
+GSAP animations are integrated thoughtfully throughout the site to provide engaging transitions and interactive elements, creating a polished and dynamic feel.
+
+Try it live here: https://erolindam.github.io/GSAP-Website-Erolinda-Mazreku/#/home
+
+
 # HotelPremium
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.11.
